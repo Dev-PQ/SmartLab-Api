@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SmartLabV3.BusinessObjects\SmartLabV3.BusinessObjects.csproj" />
+    <ProjectReference Include="..\SmartLabV3.DataObjects\SmartLabV3.DataObjects.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="LibreriaBSNet.v3">
+      <HintPath>..\Libreria\LibreriaBSNet.v3.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

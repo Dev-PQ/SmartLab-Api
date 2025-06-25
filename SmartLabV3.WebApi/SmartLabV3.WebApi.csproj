@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SmartLabV3.BusinessObjects\SmartLabV3.BusinessObjects.csproj" />
+    <ProjectReference Include="..\SmartLabV3.Facade\SmartLabV3.Facade.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="LibreriaBSNet.v3">
+      <HintPath>..\Libreria\LibreriaBSNet.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="LibreriaBSNetCore.v1">
+      <HintPath>..\Libreria\LibreriaBSNetCore.v1.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
